@@ -9,7 +9,7 @@ if (isset($_POST["enviar"])){
     $asunto="Nuevo mensaje de $email";
 
     $contenido="Nombre: $nombre \n";
-    $contenido="Apellido: $apellido \n";
+    $contenido.="Apellido: $apellido \n";
     $contenido.="Email: $email \n";
     $contenido.="Mensaje: $mensaje";
 
