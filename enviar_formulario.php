@@ -22,5 +22,7 @@ if (isset($_POST["enviar"])){
     }else{
         echo "<h3 style='color:red;'>Hubo un error al enviar el mensaje. Inténtalo nuevamente más tarde.</h3>";
     }
+    } else {
+    echo "<h3 style='color:red;'>Acceso no permitido.</h3>";
 }
 ?>
