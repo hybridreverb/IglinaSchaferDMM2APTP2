@@ -18,9 +18,9 @@ if (isset($_POST["enviar"])){
     $mail=mail($destinatario,$asunto,$contenido,$header);
 
     if($mail){
-        echo "<script>alert('El correo se envio correctamente');</script>";
+        echo "<h3 style='color:green;'>¡Gracias $nombre! Tu mensaje ha sido enviado correctamente.</h3>";
     }else{
-        echo "<script>alert('El correo no se envio');</script>";
+        echo "<h3 style='color:red;'>Hubo un error al enviar el mensaje. Inténtalo nuevamente más tarde.</h3>";
     }
 }
 ?>
