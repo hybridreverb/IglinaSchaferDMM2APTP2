@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $destinatario = "franco.iglina@davinci.edu.ar";
+    $destinatario = "franco.iglina@gmail.com";
     $asunto = "Nuevo mensaje del formulario de contacto";
 
     $cuerpo = "
