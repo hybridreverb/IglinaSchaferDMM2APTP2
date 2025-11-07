@@ -233,94 +233,57 @@
       <h2>Contacto</h2>
     </div>
 
-    <form method="POST" action="enviar_formulario.php" class="row needs-validation" novalidate>
-      <!-- Nombre -->
+    <form action="enviar_formulario.php" method="POST" class="row needs-validation" novalidate>
       <div class="col mb-3 w-25 text-body-secondary">
-        <label for="nameID" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="nameID" name="name" required placeholder="Ingrese su nombre">
-        <!-- Valido -->
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required placeholder="Ingrese su nombre">
         <div class="valid-feedback">
           Su nombre es valido
         </div>
-        <!-- Invalido -->
         <div class="invalid-feedback">
           Por favor,ingrese su nombre
         </div>
       </div>
 
-      <!-- Apellido -->
       <div class="col mb-3 w-25 text-body-secondary">
-        <label for="surnameID" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="surnameID" name="surname" required placeholder="Ingrese su apellido">
-        <!-- Valido -->
+        <label for="apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" name="apellido" required placeholder="Ingrese su apellido">
         <div class="valid-feedback">
           Su apellido es valido
         </div>
-        <!-- Invalido -->
         <div class="invalid-feedback">
           Por favor,ingrese su apellido
         </div>
       </div>
 
-      <!-- Mail -->
       <div class="mb-3 text-body-secondary">
-        <label for="emailID" class="form-label">Email</label>
-        <input type="email" class="form-control" id="emailID" name="email" required placeholder="nombre@correo.com">
-        <!-- Valido -->
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required placeholder="nombre@correo.com">
         <div class="valid-feedback">
           Su email es valido
         </div>
-        <!-- Invalido -->
         <div class="invalid-feedback">
           Por favor,ingrese su email
         </div>
       </div>
 
-      <!-- Comentario-->
       <div class="mb-3 text-body-secondary">
-        <label for="mensajeID" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="mensajeID" name="mensaje" required rows="3" placeholder="Por favor,ingrese su mensaje."></textarea>
-        <!-- Valido -->
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" required rows="3" placeholder="Por favor,ingrese su mensaje."></textarea>
         <div class="valid-feedback">
           Su nombre es valido
         </div>
-        <!-- Invalido -->
         <div class="invalid-feedback">
           El mensaje no puede estar vacio
         </div>
       </div>
 
-      <!-- Botón -->
       <div>
-        <button type="submit" class="btn bg-primary text-light">Enviar</button>
+        <button type="submit" value="enviar" name="enviar" class="btn bg-primary text-light">Enviar</button>
       </div>
 
     </form>
-
   </section>
-
-    <!-- <section id="contacto" class="container p-3 col-12 col-md-5">
-    <div class="text-center p-3"><h2>Contacto</h2></div>
-    <div class="row">
-    <div class="col mb-3 w-25 text-body-secondary">
-    <label for="validationDefault01" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese su nombre">
-    </div>
-    <div class="col mb-3 w-25 text-body-secondary">
-    <label for="validationDefault02" class="form-label">Apellido</label>
-    <input type="text" class="form-control" id="validationDefault02" placeholder="Ingrese su apellido">
-    </div>
-    </div>
-    <div class="mb-3 text-body-secondary">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@correo.com">
-      </div>
-      <div class="mb-3 text-body-secondary">
-        <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Por favor,ingrese su mensaje."></textarea>
-      </div>
-      <button type="submit" class="btn bg-primary text-light">Enviar</button>
-    </section> -->
 
     <footer class="container-fluid p-3 bg-primary">
         <div class="row">
