@@ -1,0 +1,37 @@
+#temporadas ul li {
+    list-style: none;
+    color: white;
+    padding: 20px;
+}
+
+.bg-primary {
+    background-color: #142034 !important;
+}
+
+.btn-primary {
+    background-color: #142034 !important;
+    border: solid 0px;
+}
+
+.bg-secondary {
+    background-color: #001737 !important;
+}
+
+.bg-terciary {
+    background-color: #395E89 !important;
+}
+
+.btn-personajes-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+   
+.socials_icons {
+    list-style: none;
+}
+
+.socials_icons li img {
+    width: 50px;
+    height: auto;
+    padding: 0.25rem;
+}
