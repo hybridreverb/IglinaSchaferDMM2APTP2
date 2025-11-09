@@ -1,6 +1,6 @@
 @font-face {
     font-family: "HouseMD";
-    src: url(../fonts/housem_d_.ttf);
+    src: url(../fonts/housem_d_.ttf) format('truetype');
 }
 
 body {
