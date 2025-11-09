@@ -1,6 +1,6 @@
 @font-face {
     font-family: "House_MD";
-    src: url('/fonts/housem_d_.ttf');
+    src: url('../fonts/housem_d_.ttf');
 }
 
 h2 {
