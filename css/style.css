@@ -1,3 +1,8 @@
+body {
+    color: white;
+    background-color: #142034;
+}
+
 #temporadas ul li {
     list-style: none;
     color: white;
@@ -39,6 +44,10 @@
 
 .btn-terciary {
     background-color: #395E89 !important;
+}
+
+#personajes .card {
+    border: 0px solid;
 }
 
 .btn-personajes-text {
