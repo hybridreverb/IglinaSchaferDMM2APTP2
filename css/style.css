@@ -4,6 +4,9 @@
     padding: 20px;
 }
 
+.navbar-toggler-icon {
+      filter: invert(100%);
+}
 .bg-primary {
     background-color: #142034 !important;
 }
