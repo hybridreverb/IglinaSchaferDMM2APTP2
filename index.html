@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
 </head>
 <body>
-<header>
 
+<header>
     <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container-fluid">
           <a class="navbar-brand d-none d-lg-block" href="#"><img class="w-25" src="./img/nav/House_logo.png" alt="House M.D."> <h1 class ="d-none">House M.D.</h1></a>
@@ -111,11 +111,12 @@
 
             <div class="d-flex justify-content-center align-items-center">
               <p class="d-grid gap-2 d-md-block">
-                <a class="btn btn-terciary shadow-sm text-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn btn-terciary shadow-sm text-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" id="toggleButton">
                   Ver más
                 </a>
-              </p>
-            </div>
+  </p>
+</div>
+
     </section>
 
 
@@ -348,6 +349,20 @@
     }, false)
   })
   })() 
+  </script>
+
+
+  <script>
+  const collapseElement = document.getElementById('collapseExample');
+  const toggleButton = document.getElementById('toggleButton');
+
+  collapseElement.addEventListener('shown.bs.collapse', function () {
+    toggleButton.textContent = 'Ver menos';
+  });
+
+  collapseElement.addEventListener('hidden.bs.collapse', function () {
+    toggleButton.textContent = 'Ver más';
+  });
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
