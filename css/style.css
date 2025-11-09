@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "HouseMD";
+    src: url(../fonts/housem_d_.ttf);
+}
+
 body {
     color: white;
     background-color: #142034;
+}
+
+.h1{
+    font-family: "HouseMD";
 }
 
 #temporadas ul li {
