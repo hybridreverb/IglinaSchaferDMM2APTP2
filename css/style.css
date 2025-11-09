@@ -4,6 +4,10 @@
     padding: 20px;
 }
 
+.navbar-toggler {
+    border: 1px solid #A7A9AE;
+}
+
 .navbar-toggler-icon {
       filter: invert(100%);
 }
