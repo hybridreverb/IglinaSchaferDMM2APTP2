@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "House_MD";
+    src: url('/fonts/housem_d_.ttf');
+}
+
+h2 {
+    font-family: 'House_MD';
+}
+
 #temporadas ul li {
     list-style: none;
     color: white;
